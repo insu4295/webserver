@@ -1,4 +1,4 @@
-FROM centos:lastest
+FROM centos:latest
 MAINTAINER "insu_song <insu@gmail.com>"
 LABEL "purpose"="webserver"
 RUN ["yum", "-y", "install", "httd"]
